@@ -1,3 +1,5 @@
+using System.Diagnostics;
+
 namespace RDLC
 {
     internal static class Program
@@ -8,10 +10,9 @@ namespace RDLC
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
+            Debug.WriteLine("Se setean los valores de el data set");
         }
     }
 }

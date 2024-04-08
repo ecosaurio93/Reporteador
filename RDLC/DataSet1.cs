@@ -1,3 +1,7 @@
 ﻿namespace RDLC
 {
 }
+
+namespace RDLC
+{
+}
